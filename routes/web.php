@@ -43,6 +43,12 @@ Route::get('/storelisting', function () {
 
 Auth::routes(['verify' => true]);
 
+
+//Stripe payment
+Route::get('/stripe', 'StripeController@handleGet');
+Route::post('/stripe', 'StripeController@handlePost')->name('stripe.payment');
+
+
 //Admin
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/home', 'HomeController@index')->name('home');
