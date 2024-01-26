@@ -21,7 +21,6 @@ ENV YARN_ALLOW_SUPERUSER 1
 ENV NPX_ALLOW_SUPERUSER 1
 RUN chmod 777 ./*
 RUN composer install && npm install
-RUN php artisan migrate:install
 RUN php artisan migrate --force
 RUN php artisan db:seed --force
 EXPOSE 80 80
