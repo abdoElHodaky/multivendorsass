@@ -29,8 +29,6 @@ It's Store manager web application based on Software as service model. Multiple 
 - Enhancement in User Module and Order Module For Customer Details Mapping
 - Storewise Customers Management Module
 - Customer Notification Management Module
-- Integration token management module for REST API Access
-- REST API(s) for all modules for mobile apps
 - Payment Methods Mangement Module
 - Announcement/Blog/News Management Module
 - Support and Contact Module
@@ -43,26 +41,23 @@ Three differenet roles Admin/User/Customer will automatically added in system an
 
 ## Installation Procedure
 
-Pull Latest code: 
-
-`https://github.com/lpkapil/storemanager.git`
 
 - Create Virtual Host & Host Entry in apache configuration and host file and restart apache server
 
 ```
 <VirtualHost *:80>
         ServerAdmin webmaster@example.com
-        ServerName storemanager.com
-        ServerAlias storemanager.com
-        DocumentRoot /var/www/html/storemanager/public/
-        <Directory /var/www/html/storemanager>
+        ServerName multivendorsass.com
+        ServerAlias multivendorsass.com
+        DocumentRoot /var/www/html/multivendorsass/public/
+        <Directory /var/www/html/multivendorsass>
                 AllowOverride all
                 Require all granted
         </Directory>
 </VirtualHost>
 ```
 
-`127.0.0.1 storemanager.com`
+``
 
 `service apache2 restart`
 
