@@ -1,4 +1,4 @@
-FROM richarvey/nginx-php-fpm:1.8.1
+FROM richarvey/nginx-php-fpm:1.7.1
 RUN apk add -U --no-cache nghttp2-dev nodejs npm unzip
 COPY . /var/www/html
 
@@ -19,7 +19,7 @@ ENV NODEJS_ALLOW_SUPERUSER 1
 ENV NPM_ALLOW_SUPERUSER 1
 ENV YARN_ALLOW_SUPERUSER 1
 ENV NPX_ALLOW_SUPERUSER 1
-RUN chmod 777 ./*
+RUN chmod 777 ./**/
 RUN composer install
 #RUN php artisan migrate:install
 #RUN php artisan migrate --force
