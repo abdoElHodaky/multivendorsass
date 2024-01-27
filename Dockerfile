@@ -1,5 +1,5 @@
-FROM richarvey/nginx-php-fpm:1.9.1
-RUN apk add -U --no-cache nghttp2-dev nodejs npm unzip tzdata
+FROM richarvey/nginx-php-fpm:1.8.1
+RUN apk add -U --no-cache nghttp2-dev nodejs npm unzip
 COPY . /var/www/html
 
 ENV SKIP_COMPOSER 0
