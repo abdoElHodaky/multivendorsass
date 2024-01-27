@@ -27,7 +27,6 @@ It's Store manager web application based on Software as service model. Multiple 
 ###### To-do
 
 - Enhancement in User Module and Order Module For Customer Details Mapping
-- Storewise Customers Management Module
 - Customer Notification Management Module
 - Payment Methods Mangement Module
 - Announcement/Blog/News Management Module
