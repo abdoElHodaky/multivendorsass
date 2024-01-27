@@ -1,4 +1,4 @@
-FROM richarvey/nginx-php-fpm:1.8.1
+FROM richarvey/nginx-php-fpm:1.9.1
 RUN apk add -U --no-cache nghttp2-dev nodejs npm unzip tzdata
 COPY . /var/www/html
 
