@@ -86,7 +86,7 @@ Pull Latest code:
 
 - Open application using URL
 
-`http://storemanager.com`
+`https://larvmultivendor.onrender.com`
 
 ## Login Details
 
@@ -107,8 +107,6 @@ Password: customer
 
 ## Demo Screens
 
-![Demo Screens](https://github.com/lpkapil/storemanager/blob/dev/public/demo_images/demo.gif?raw=true)
+![Demo Screens]()
 
 ## Donate and Support
-
-<div class='pm-button'><a href='https://www.payumoney.com/paybypayumoney/#/3FF0BB83F2A6D7DD27A53BC12E4AE109' target="_blank"><img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/21.png' /></a></div> 
